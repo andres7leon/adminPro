@@ -12,6 +12,7 @@ import { IncrementadorComponent } from '../components/incrementador/incrementado
 import { ChartsModule } from 'node_modules/ng2-charts';
 import { GraficasComponent } from '../components/graficas/graficas.component';
 import { BrowserModule } from '@angular/platform-browser';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 // libs
 
 
@@ -22,7 +23,8 @@ import { BrowserModule } from '@angular/platform-browser';
     Graficas1Component,
     PagesComponent,
     IncrementadorComponent,
-    GraficasComponent
+    GraficasComponent,
+    AccountSettingsComponent
   ],
   exports: [
     DashboardComponent,
